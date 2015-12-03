@@ -1,0 +1,40 @@
+"Resource/UI/HudObjectiveStatus.res"
+{	
+	"ObjectiveStatusTimePanel"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName"			"ObjectiveStatusTimePanel"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"1"
+		"wide"				"f0"
+		"tall"				"f0"
+		"visible"			"0"
+		"enabled"			"1"
+		"delta_item_x"			"45"
+		"delta_item_start_y"	"5"
+		"delta_item_end_y"		"5"
+		"PositiveColor"			"BlueTF"
+		"NegativeColor"			"RedTF"
+		"delta_lifetime"		"1.5"
+		"delta_item_font"		"product14"
+		
+		"TimePanelValue"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TimePanelValue"
+			"font"			"product18"
+			"fgcolor"		"WhiteTF"
+			"xpos"			"10"
+			"ypos"			"4"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"		"west"
+			"labelText"		"0:00"
+			"bgcolor_override"	"0 0 0 0"
+		}	
+	}
+}
